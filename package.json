@@ -13,6 +13,10 @@
     "ci": "pnpm lint && pnpm test && pnpm build",
     "release": "pnpm run ci && changeset publish"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pml68/is-abc.git"
+  },
   "keywords": [],
   "author": "pml68",
   "license": "MIT",
