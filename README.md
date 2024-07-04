@@ -14,7 +14,7 @@ $ npm install is-abc
 ## Usage
 
 ```js
-import { is_abc } from 'is-abc'
+import is_abc from 'is-abc'
 
 is_abc('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
 // => true

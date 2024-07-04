@@ -10,4 +10,4 @@
 
 ### Patch Changes
 
-- 97cb368: Update npmignore as necessary
+- 97cb368: Updated npmignore as necessary
