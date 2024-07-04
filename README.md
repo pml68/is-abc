@@ -14,14 +14,14 @@ $ npm install is-abc
 ## Usage
 
 ```js
-import { isabc } from 'is-abc'
+import { is_abc } from 'is-abc'
 
-isabc('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+is_abc('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
 // => true
 
-isabc('abcdefghijklmnopqrstuvwxyz')
+is_abc('abcdefghijklmnopqrstuvwxyz')
 // => true
 
-isabc('anything else')
+is_abc('anything else')
 // => false
 ```

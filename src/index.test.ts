@@ -1,16 +1,16 @@
 import { it, describe, expect } from 'vitest'
-import { isabc } from './index'
+import is_abc from './index'
 
-describe("isabc", () => {
+describe("is_abc", () => {
   it("should return true if passed \"ABC...\"", () => {
-    expect(isabc("ABCDEFGHIJKLMNOPQRSTUVWXYZ")).toBe(true)
+    expect(is_abc("ABCDEFGHIJKLMNOPQRSTUVWXYZ")).toBe(true)
   })
 
   it("should return true if passed \"abc...\"", () => {
-    expect(isabc("abcdefghijklmnopqrstuvwxyz")).toBe(true)
+    expect(is_abc("abcdefghijklmnopqrstuvwxyz")).toBe(true)
   })
 
   it("should return false if the string cotains something else", () => {
-    expect(isabc("hmph")).toBe(false)
+    expect(is_abc("hmph")).toBe(false)
   })
 })
