@@ -1,6 +1,6 @@
 {
   "name": "is-abc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Checks whether the provided string is the ABC in upper or lower case",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
