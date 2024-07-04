@@ -1,5 +1,11 @@
 # is-abc
 
+## 1.0.1
+
+### Patch Changes
+
+- 1c2995d: Updated "Usage" section of README
+
 ## 1.0.0
 
 ### Major Changes
