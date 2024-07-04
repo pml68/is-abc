@@ -4,6 +4,6 @@
   * @param str - String to be compared
   */
 export default function is_abc(str: string) {
-  let abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   return str === abc || str === abc.toLowerCase()
 }
