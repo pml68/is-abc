@@ -1,5 +1,11 @@
 # is-abc
 
+## 2.0.0
+
+### Major Changes
+
+- 3f679bd: Added contains_abc function
+
 ## 1.0.1
 
 ### Patch Changes
