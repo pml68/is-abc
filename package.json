@@ -1,7 +1,7 @@
 {
   "name": "is-abc",
   "version": "1.0.1",
-  "description": "Checks whether the provided string is the ABC in upper or lower case",
+  "description": "Checks for the ABC in upper or lower case",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.mjs",
@@ -17,7 +17,9 @@
     "type": "git",
     "url": "git+https://github.com/pml68/is-abc.git"
   },
-  "keywords": [],
+  "keywords": [
+    "ABC"
+  ],
   "author": "pml68",
   "license": "MIT",
   "devDependencies": {
